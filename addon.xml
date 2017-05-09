@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.focus" name="focus Repository" version="1.0.3" provider-name="focus">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="focus Repository">
+                <info compressed="false">http://bo.site11.com/Zips/addons.xml</info>
+                <checksum>http://bo.site11.com/Zips/addons.xml.md5</checksum>
+                <datadir zip="true">http://bo.site11.com/Zips/</datadir>
+                <hashes>false</hashes> 
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">focus's addons repository</summary>
+            <summary lang="fr">Extensions du dépôt de focus.</summary>
+            <description lang="en">Download and install focus's addons repository.</description>
+            <description lang="fr">Téléchargez et installez les extensions du dépôt de focus.</description>
+            <platform>all</platform>
+            <assets>
+ 			   <icon>resources/icon.png</icon>
+ 			   <fanart>resources/fanart.jpg</fanart>
+ 			   </assets>
+            <news>[B]1.0.3[/B][CR]• Changes for Kodi Krypton[CR][CR][B]1.0.2[/B][CR]• Fixes[CR][CR][B]1.0.1[/B][CR]• Changes for Kodi Krypton[CR][CR][B]1.0.0[/B][CR]• Initial release</news>
+    </extension>
+</addon>
